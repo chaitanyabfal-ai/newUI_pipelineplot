@@ -1,8 +1,24 @@
-# Core third-party dependencies used by gas_moc_smart_optimizer_v5 (1).py
-numpy
-pandas
-matplotlib
-scipy
+# Gas MOC Smart Optimizer - Python Dependencies
+# ================================================
+# Version 5.0 - Streamlit Edition
+# September 2026
+#
+# Core dependencies for simulation and optimization
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
 
-# tkinter is also imported, but is part of Python's standard library rather
-# than a pip dependency. On Linux/WSL, install the OS Tk package separately.
+# Streamlit web application framework (NEW for v5.0)
+streamlit>=1.12.0
+
+# Plotting and visualization
+matplotlib>=3.4.0
+
+# Note: tkinter is not needed for Streamlit version
+# Streamlit replaces the tkinter GUI
+
+# Optional: For better performance with large datasets
+# numba>=0.55.0
+
+# Optional: For advanced optimization features
+# scikit-optimize>=0.9.0
